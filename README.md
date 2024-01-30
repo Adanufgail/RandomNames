@@ -3,55 +3,55 @@ Generate random character names for TTRPG.
 
 # Usage
 
-		usage: random_names.py [-h] [-d] [-n N] [-o O] [-em] [-ef] [-en] [-dz] [-dy] [-pz] [-py] [-pa] [-pA] [-pb] [-pB] [-pc] [-pC] [-pd] [-pD] [-pe] [-pE] [-pf] [-pF]
+	usage: random_names.py [-h] [-d] [-n N] [-o O] [-em] [-ef] [-en] [-dz] [-dy] [-pz] [-py] [-pa] [-pA] [-pb] [-pB] [-pc] [-pC] [-pd] [-pD] [-pe] [-pE] [-pf] [-pF]
 
-		Generate random character names
+	Generate random character names
 
-		optional arguments:
-		  -h, --help  show this help message and exit
-		  -d          Show debug output (DEFAULT: FALSE)
-		  -n N        Number of names to generate (DEFAULT: 1)
+	optional arguments:
+	  -h, --help  show this help message and exit
+	  -d          Show debug output (DEFAULT: FALSE)
+	  -n N        Number of names to generate (DEFAULT: 1)
 
-		  -o O        Name format. (DEFAULT: 'y z')
+	  -o O        Name format. (DEFAULT: 'y z')
 
-						  z - family name (list)
-						  y - given name (list)
-						  a - gendered given prefix
-						  A - neutral/gendered given prefix
-						  b - gendered given base
-						  B - neutral/gendered given base
-						  c - gendered given suffix
-						  C - neutral/gendered given suffix
-						  d - gendered family prefix
-						  D - neutral/gendered family prefix
-						  e - gendered family base
-						  E - neutral/gendered family base
-						  f - gendered family suffix
-						  F - neutral/gendered family suffix
-						  whitespace/delimiters for separator characters like hyphens.
+					  z - family name (list)
+					  y - given name (list)
+					  a - gendered given prefix
+					  A - neutral/gendered given prefix
+					  b - gendered given base
+					  B - neutral/gendered given base
+					  c - gendered given suffix
+					  C - neutral/gendered given suffix
+					  d - gendered family prefix
+					  D - neutral/gendered family prefix
+					  e - gendered family base
+					  E - neutral/gendered family base
+					  f - gendered family suffix
+					  F - neutral/gendered family suffix
+					  whitespace/delimiters for separator characters like hyphens.
 
-		  -em         Don't use names gendered as male
-		  -ef         Don't use names gendered as female
-		  -en         Don't use names gendered as neutral. Ignored by part categories that include gender neutral names
+	  -em         Don't use names gendered as male
+	  -ef         Don't use names gendered as female
+	  -en         Don't use names gendered as neutral. Ignored by part categories that include gender neutral names
 
-		  -dz         Allow duplicate names to appear as family names. This only applies to lists. Will throw an error if you do not have enough unique names.
-		  -dy         Allow duplicate names to appear as given names. This only applies to lists. Will throw an error if you do not have enough unique names.
+	  -dz         Allow duplicate names to appear as family names. This only applies to lists. Will throw an error if you do not have enough unique names.
+	  -dy         Allow duplicate names to appear as given names. This only applies to lists. Will throw an error if you do not have enough unique names.
 
-		  -pz         Print all family list names which fit current gender options
-		  -py         Print all family list names which fit current gender options
+	  -pz         Print all family list names which fit current gender options
+	  -py         Print all family list names which fit current gender options
 
-		  -pa         Print all given prefixes which fit current gender options
-		  -pA         Print all given prefixes which fit current gender options or gender neutral options
-		  -pb         Print all given bases which fit current gender options
-		  -pB         Print all given bases which fit current gender options or gender neutral options
-		  -pc         Print all given suffixes which fit current gender options
-		  -pC         Print all given suffixes which fit current gender options or gender neutral options
-		  -pd         Print all family prefixes which fit current gender options
-		  -pD         Print all family prefixes which fit current gender options or gender neutral options
-		  -pe         Print all family bases which fit current gender options
-		  -pE         Print all family bases which fit current gender options or gender neutral options
-		  -pf         Print all family suffixes which fit current gender options
-		  -pF         Print all family suffixes which fit current gender options or gender neutral options
+	  -pa         Print all given prefixes which fit current gender options
+	  -pA         Print all given prefixes which fit current gender options or gender neutral options
+	  -pb         Print all given bases which fit current gender options
+	  -pB         Print all given bases which fit current gender options or gender neutral options
+	  -pc         Print all given suffixes which fit current gender options
+	  -pC         Print all given suffixes which fit current gender options or gender neutral options
+	  -pd         Print all family prefixes which fit current gender options
+	  -pD         Print all family prefixes which fit current gender options or gender neutral options
+	  -pe         Print all family bases which fit current gender options
+	  -pE         Print all family bases which fit current gender options or gender neutral options
+	  -pf         Print all family suffixes which fit current gender options
+	  -pF         Print all family suffixes which fit current gender options or gender neutral options
 
 
 # Files
